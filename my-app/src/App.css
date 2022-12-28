@@ -20,9 +20,11 @@
 }
 
 .box1{
-    display:inline-block;
+    display:block;
     width:50vw;
     height:65vh;
+
+    float:left;
 
     background-color:cadetblue;
 }
@@ -39,6 +41,31 @@
     background-color:white;
 }
 
+#search_button{
+    display:flex;
+
+    width:100px;
+    height:58px;
+
+    margin-top:-58px;
+    margin-left:575px;
+
+    justify-content:center;
+    align-items:center;
+
+    background-color:white;
+}
+
+#search{
+    display:inline-block;
+
+    width:500px;
+    height:56px;
+
+    margin-left:72px;
+    margin-top:95px;
+}
+
 #signup{
     display:inline-block;
 
@@ -49,4 +76,48 @@
     margin-left:40px;
 
     background-color:white;
+}
+
+#cities{
+    margin-top:150px;
+}
+
+#slider{
+    width:768px;
+    height:475px;
+}
+
+.webimage1{
+    width:33vw;
+    height:42vh;
+    margin-left:15px;
+    margin-top:10px;
+}
+
+.webimage2{
+    width:33vw;
+    height:42vh;
+    margin-left:10px;
+    margin-top:10px;
+}
+
+.webimage3{
+    width:30vw;
+    height:42vh;
+    margin-left:10px;
+    margin-top:10px;
+}
+
+#box2{
+    height:44vh;
+    width:100vw;
+
+    background-color: darkgray;
+}
+
+#app-promotion{
+    width:50vw;
+    height:80vh;
+
+    margin-left:380px;
 }
